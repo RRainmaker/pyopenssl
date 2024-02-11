@@ -32,7 +32,7 @@ module = "OpenSSL._util"
 warn_return_any = false
 
 [[tool.mypy.overrides]]
-module = "cryptography==3.4.8"
+module = "cryptography.*"
 ignore_missing_imports = true
 
 [[tool.mypy.overrides]]
