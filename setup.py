@@ -93,7 +93,7 @@ if __name__ == "__main__":
         packages=find_packages(where="src"),
         package_dir={"": "src"},
         install_requires=[
-            "cryptography==3.4.8",
+            "https://github.com/emanuele-f/chaquopy-wheels/raw/d45a405cda93078731fcf832b992cd211f8832e2/cryptography-39.0.2-0-cp310-cp310-android_21_x86_64.whl",
         ],
         extras_require={
             "test": ["flaky", "pretend", "pytest>=3.0.1"],
