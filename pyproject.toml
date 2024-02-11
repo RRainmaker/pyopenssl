@@ -32,7 +32,7 @@ module = "OpenSSL._util"
 warn_return_any = false
 
 [[tool.mypy.overrides]]
-module = "https://chaquo.com/pypi-13.1/cryptography/cryptography-3.4.8-2-cp310-cp310-android_21_x86_64.whl"
+module = "cryptography==3.4.8"
 ignore_missing_imports = true
 
 [[tool.mypy.overrides]]
